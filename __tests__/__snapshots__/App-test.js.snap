@@ -186,7 +186,7 @@ exports[`Button Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -233,7 +233,7 @@ exports[`Button Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -253,7 +253,7 @@ exports[`Button Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -265,7 +265,7 @@ exports[`Button Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -381,7 +381,7 @@ exports[`Button Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -532,7 +532,7 @@ exports[`Button Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -544,7 +544,7 @@ exports[`Button Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -671,7 +671,7 @@ exports[`Button Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -822,7 +822,7 @@ exports[`Button Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -834,7 +834,7 @@ exports[`Button Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -971,7 +971,7 @@ exports[`Button Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -1136,7 +1136,7 @@ exports[`Button Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -1148,7 +1148,7 @@ exports[`Button Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -1265,7 +1265,7 @@ exports[`Button Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -1464,7 +1464,7 @@ exports[`Button Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -1496,7 +1496,7 @@ exports[`Button Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -1529,7 +1529,7 @@ exports[`Button Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -1768,7 +1768,7 @@ exports[`CheckBox Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -1776,7 +1776,7 @@ exports[`CheckBox Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -1847,7 +1847,7 @@ exports[`CheckBox Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -1867,7 +1867,7 @@ exports[`CheckBox Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -1879,7 +1879,7 @@ exports[`CheckBox Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -1924,7 +1924,7 @@ exports[`CheckBox Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -2051,7 +2051,7 @@ exports[`CheckBox Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -2063,7 +2063,7 @@ exports[`CheckBox Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -2109,7 +2109,7 @@ exports[`CheckBox Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -2250,7 +2250,7 @@ exports[`CheckBox Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -2262,7 +2262,7 @@ exports[`CheckBox Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -2308,7 +2308,7 @@ exports[`CheckBox Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -2435,7 +2435,7 @@ exports[`CheckBox Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -2447,7 +2447,7 @@ exports[`CheckBox Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -2494,7 +2494,7 @@ exports[`CheckBox Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -2635,7 +2635,7 @@ exports[`CheckBox Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -2647,7 +2647,7 @@ exports[`CheckBox Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -2669,7 +2669,7 @@ exports[`CheckBox Example Page 1`] = `
                 accessibilityLabel="Colored Checked Example"
                 forwardedRef={null}
                 onChange={[Function]}
-                onCheckColor="rgb(0, 122, 255)"
+                onCheckColor="#007AFF"
                 style={
                   [
                     {
@@ -2694,7 +2694,7 @@ exports[`CheckBox Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -2835,7 +2835,7 @@ exports[`CheckBox Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -2847,7 +2847,7 @@ exports[`CheckBox Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -2869,7 +2869,7 @@ exports[`CheckBox Example Page 1`] = `
                 accessibilityLabel="Example with colored border"
                 forwardedRef={null}
                 onChange={[Function]}
-                onTintColor="rgb(0, 122, 255)"
+                onTintColor="#007AFF"
                 style={
                   [
                     {
@@ -2894,7 +2894,7 @@ exports[`CheckBox Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -3035,7 +3035,7 @@ exports[`CheckBox Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -3047,7 +3047,7 @@ exports[`CheckBox Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -3069,7 +3069,7 @@ exports[`CheckBox Example Page 1`] = `
                 accessibilityLabel="Colored Example when checked"
                 forwardedRef={null}
                 onChange={[Function]}
-                onFillColor="rgb(0, 122, 255)"
+                onFillColor="#007AFF"
                 style={
                   [
                     {
@@ -3094,7 +3094,7 @@ exports[`CheckBox Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -3235,7 +3235,7 @@ exports[`CheckBox Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -3247,7 +3247,7 @@ exports[`CheckBox Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -3279,7 +3279,7 @@ exports[`CheckBox Example Page 1`] = `
                     undefined,
                   ]
                 }
-                tintColor="rgb(0, 122, 255)"
+                tintColor="#007AFF"
               />
             </View>
             <View
@@ -3293,7 +3293,7 @@ exports[`CheckBox Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -3445,7 +3445,7 @@ exports[`CheckBox Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -3477,7 +3477,7 @@ exports[`CheckBox Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -3510,7 +3510,7 @@ exports[`CheckBox Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -3781,7 +3781,7 @@ exports[`Clipboard Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -3801,7 +3801,7 @@ exports[`Clipboard Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -3813,7 +3813,7 @@ exports[`Clipboard Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -3943,7 +3943,7 @@ exports[`Clipboard Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -4096,7 +4096,7 @@ exports[`Clipboard Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -4108,7 +4108,7 @@ exports[`Clipboard Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -4234,7 +4234,7 @@ exports[`Clipboard Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -4619,7 +4619,7 @@ exports[`Clipboard Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -4651,7 +4651,7 @@ exports[`Clipboard Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -4684,7 +4684,7 @@ exports[`Clipboard Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -4946,7 +4946,7 @@ exports[`Config Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -4966,7 +4966,7 @@ exports[`Config Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -4978,7 +4978,7 @@ exports[`Config Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -4999,7 +4999,7 @@ exports[`Config Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
               >
@@ -5008,7 +5008,7 @@ exports[`Config Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
               >
@@ -5017,7 +5017,7 @@ exports[`Config Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
               >
@@ -5035,7 +5035,7 @@ exports[`Config Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -5371,7 +5371,7 @@ exports[`Config Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -5403,7 +5403,7 @@ exports[`Config Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -5436,7 +5436,7 @@ exports[`Config Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -5702,7 +5702,7 @@ exports[`DeviceInfo Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -5722,7 +5722,7 @@ exports[`DeviceInfo Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -5734,7 +5734,7 @@ exports[`DeviceInfo Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -5755,7 +5755,7 @@ exports[`DeviceInfo Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
               >
@@ -5765,7 +5765,7 @@ exports[`DeviceInfo Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
               >
@@ -5784,7 +5784,7 @@ exports[`DeviceInfo Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -6034,7 +6034,7 @@ exports[`DeviceInfo Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -6046,7 +6046,7 @@ exports[`DeviceInfo Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -6067,7 +6067,7 @@ exports[`DeviceInfo Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
               >
@@ -6089,7 +6089,7 @@ exports[`DeviceInfo Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -6262,7 +6262,7 @@ exports[`DeviceInfo Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -6274,7 +6274,7 @@ exports[`DeviceInfo Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -6295,7 +6295,7 @@ exports[`DeviceInfo Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
               >
@@ -6314,7 +6314,7 @@ exports[`DeviceInfo Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -6466,7 +6466,7 @@ exports[`DeviceInfo Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -6498,7 +6498,7 @@ exports[`DeviceInfo Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -6531,7 +6531,7 @@ exports[`DeviceInfo Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -6761,7 +6761,7 @@ exports[`Expander Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -6769,7 +6769,7 @@ exports[`Expander Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -6840,7 +6840,7 @@ exports[`Expander Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -6860,7 +6860,7 @@ exports[`Expander Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -6872,7 +6872,7 @@ exports[`Expander Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -6916,7 +6916,7 @@ exports[`Expander Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -7194,7 +7194,7 @@ exports[`Expander Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -7206,7 +7206,7 @@ exports[`Expander Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -7260,7 +7260,7 @@ exports[`Expander Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -7768,7 +7768,7 @@ exports[`Expander Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -7780,7 +7780,7 @@ exports[`Expander Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -7825,7 +7825,7 @@ exports[`Expander Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -8117,7 +8117,7 @@ exports[`Expander Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -8129,7 +8129,7 @@ exports[`Expander Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -8150,10 +8150,10 @@ exports[`Expander Example Page 1`] = `
               <ExpanderView
                 collapsedHeight={50}
                 contentBackground="rgb(52, 122, 226)"
-                contentBorderBrush="rgb(242, 242, 242)"
+                contentBorderBrush="#F2F2F7"
                 expandedHeight={125}
-                headerBackground="rgb(216, 216, 216)"
-                headerForegroundPointerOver="rgb(0, 122, 255)"
+                headerBackground="#C6C6C8"
+                headerForegroundPointerOver="#007AFF"
                 height={50}
                 onCollapsing={[Function]}
                 onExpanding={[Function]}
@@ -8177,7 +8177,7 @@ exports[`Expander Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -8517,7 +8517,7 @@ exports[`Expander Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -8529,7 +8529,7 @@ exports[`Expander Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -8564,7 +8564,7 @@ exports[`Expander Example Page 1`] = `
                   <RNCCheckboxWindows
                     forwardedRef={null}
                     onChange={[Function]}
-                    onCheckColor="rgb(0, 122, 255)"
+                    onCheckColor="#007AFF"
                     style={
                       [
                         {
@@ -8614,7 +8614,7 @@ exports[`Expander Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -9383,7 +9383,7 @@ exports[`Expander Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -9415,7 +9415,7 @@ exports[`Expander Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -9448,7 +9448,7 @@ exports[`Expander Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -9687,7 +9687,7 @@ exports[`Flyout Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -9695,7 +9695,7 @@ exports[`Flyout Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -9715,7 +9715,7 @@ exports[`Flyout Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -9762,7 +9762,7 @@ exports[`Flyout Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -9782,7 +9782,7 @@ exports[`Flyout Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -9794,7 +9794,7 @@ exports[`Flyout Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -9855,7 +9855,7 @@ exports[`Flyout Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -9879,7 +9879,7 @@ exports[`Flyout Example Page 1`] = `
                   style={
                     {
                       "alignItems": "center",
-                      "backgroundColor": "rgb(242, 242, 242)",
+                      "backgroundColor": "#F2F2F7",
                       "borderRadius": 3,
                       "height": 125,
                       "justifyContent": "space-around",
@@ -9890,7 +9890,7 @@ exports[`Flyout Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -9924,7 +9924,7 @@ exports[`Flyout Example Page 1`] = `
                     style={
                       {
                         "alignItems": "center",
-                        "backgroundColor": "rgb(216, 216, 216)",
+                        "backgroundColor": "#C6C6C8",
                         "borderRadius": 3,
                         "height": 40,
                         "justifyContent": "center",
@@ -9950,7 +9950,7 @@ exports[`Flyout Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -10576,7 +10576,7 @@ exports[`Flyout Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -10588,7 +10588,7 @@ exports[`Flyout Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -10649,7 +10649,7 @@ exports[`Flyout Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -10674,7 +10674,7 @@ exports[`Flyout Example Page 1`] = `
                   style={
                     {
                       "alignItems": "center",
-                      "backgroundColor": "rgb(242, 242, 242)",
+                      "backgroundColor": "#F2F2F7",
                       "borderRadius": 3,
                       "height": 125,
                       "justifyContent": "space-around",
@@ -10685,7 +10685,7 @@ exports[`Flyout Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -10719,7 +10719,7 @@ exports[`Flyout Example Page 1`] = `
                     style={
                       {
                         "alignItems": "center",
-                        "backgroundColor": "rgb(216, 216, 216)",
+                        "backgroundColor": "#C6C6C8",
                         "borderRadius": 3,
                         "height": 40,
                         "justifyContent": "center",
@@ -10745,7 +10745,7 @@ exports[`Flyout Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -11372,7 +11372,7 @@ exports[`Flyout Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -11384,7 +11384,7 @@ exports[`Flyout Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -11445,7 +11445,7 @@ exports[`Flyout Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -11471,7 +11471,7 @@ exports[`Flyout Example Page 1`] = `
                   style={
                     {
                       "alignItems": "center",
-                      "backgroundColor": "rgb(242, 242, 242)",
+                      "backgroundColor": "#F2F2F7",
                       "borderRadius": 3,
                       "height": 125,
                       "justifyContent": "space-around",
@@ -11482,7 +11482,7 @@ exports[`Flyout Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -11516,7 +11516,7 @@ exports[`Flyout Example Page 1`] = `
                     style={
                       {
                         "alignItems": "center",
-                        "backgroundColor": "rgb(216, 216, 216)",
+                        "backgroundColor": "#C6C6C8",
                         "borderRadius": 3,
                         "height": 40,
                         "justifyContent": "center",
@@ -11542,7 +11542,7 @@ exports[`Flyout Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -12170,7 +12170,7 @@ exports[`Flyout Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -12182,7 +12182,7 @@ exports[`Flyout Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -12243,7 +12243,7 @@ exports[`Flyout Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -12268,7 +12268,7 @@ exports[`Flyout Example Page 1`] = `
                   style={
                     {
                       "alignItems": "center",
-                      "backgroundColor": "rgb(242, 242, 242)",
+                      "backgroundColor": "#F2F2F7",
                       "borderRadius": 3,
                       "height": 125,
                       "justifyContent": "space-around",
@@ -12279,7 +12279,7 @@ exports[`Flyout Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -12313,7 +12313,7 @@ exports[`Flyout Example Page 1`] = `
                     style={
                       {
                         "alignItems": "center",
-                        "backgroundColor": "rgb(216, 216, 216)",
+                        "backgroundColor": "#C6C6C8",
                         "borderRadius": 3,
                         "height": 40,
                         "justifyContent": "center",
@@ -12339,7 +12339,7 @@ exports[`Flyout Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -12993,7 +12993,7 @@ exports[`Flyout Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -13025,7 +13025,7 @@ exports[`Flyout Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -13058,7 +13058,7 @@ exports[`Flyout Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -13297,7 +13297,7 @@ exports[`Hello Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -13305,7 +13305,7 @@ exports[`Hello Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -13376,7 +13376,7 @@ exports[`Hello Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -13396,7 +13396,7 @@ exports[`Hello Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -13408,7 +13408,7 @@ exports[`Hello Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -13526,7 +13526,7 @@ exports[`Hello Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -13775,7 +13775,7 @@ exports[`Hello Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -13787,7 +13787,7 @@ exports[`Hello Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -13905,7 +13905,7 @@ exports[`Hello Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -14154,7 +14154,7 @@ exports[`Hello Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -14166,7 +14166,7 @@ exports[`Hello Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -14284,7 +14284,7 @@ exports[`Hello Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -14572,7 +14572,7 @@ exports[`Hello Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -14604,7 +14604,7 @@ exports[`Hello Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -14637,7 +14637,7 @@ exports[`Hello Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -14876,7 +14876,7 @@ exports[`Image Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -14884,7 +14884,7 @@ exports[`Image Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -14955,7 +14955,7 @@ exports[`Image Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -14975,7 +14975,7 @@ exports[`Image Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -14987,7 +14987,7 @@ exports[`Image Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -15030,7 +15030,7 @@ exports[`Image Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -15257,7 +15257,7 @@ exports[`Image Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -15269,7 +15269,7 @@ exports[`Image Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -15313,7 +15313,7 @@ exports[`Image Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -15555,7 +15555,7 @@ exports[`Image Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -15567,7 +15567,7 @@ exports[`Image Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -15611,7 +15611,7 @@ exports[`Image Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -15851,7 +15851,7 @@ exports[`Image Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -15863,7 +15863,7 @@ exports[`Image Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -15908,7 +15908,7 @@ exports[`Image Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -16180,7 +16180,7 @@ exports[`Image Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -16192,7 +16192,7 @@ exports[`Image Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -16219,7 +16219,7 @@ exports[`Image Example Page 1`] = `
                 style={
                   {
                     "borderBottomRightRadius": 20,
-                    "borderColor": "rgb(0, 122, 255)",
+                    "borderColor": "#007AFF",
                     "borderTopLeftRadius": 20,
                     "borderWidth": 3,
                     "height": 50,
@@ -16239,7 +16239,7 @@ exports[`Image Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -16611,7 +16611,7 @@ exports[`Image Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -16643,7 +16643,7 @@ exports[`Image Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -16676,7 +16676,7 @@ exports[`Image Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -16905,7 +16905,7 @@ exports[`Networking Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -16952,7 +16952,7 @@ exports[`Networking Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -16972,7 +16972,7 @@ exports[`Networking Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -16984,7 +16984,7 @@ exports[`Networking Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -17067,7 +17067,7 @@ exports[`Networking Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -18190,7 +18190,7 @@ exports[`Networking Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -18202,7 +18202,7 @@ exports[`Networking Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -18372,7 +18372,7 @@ exports[`Networking Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -20413,7 +20413,7 @@ useEffect(
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -20445,7 +20445,7 @@ useEffect(
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -20478,7 +20478,7 @@ useEffect(
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -20708,7 +20708,7 @@ exports[`Picker Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -20716,7 +20716,7 @@ exports[`Picker Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -20787,7 +20787,7 @@ exports[`Picker Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -20807,7 +20807,7 @@ exports[`Picker Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -20819,7 +20819,7 @@ exports[`Picker Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -20872,7 +20872,7 @@ exports[`Picker Example Page 1`] = `
                       "width": 200,
                     },
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     },
                   ]
                 }
@@ -20889,7 +20889,7 @@ exports[`Picker Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -21372,7 +21372,7 @@ exports[`Picker Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -21384,7 +21384,7 @@ exports[`Picker Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -21438,7 +21438,7 @@ exports[`Picker Example Page 1`] = `
                       "width": 200,
                     },
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     },
                   ]
                 }
@@ -21455,7 +21455,7 @@ exports[`Picker Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -21952,7 +21952,7 @@ exports[`Picker Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -21964,7 +21964,7 @@ exports[`Picker Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -22017,7 +22017,7 @@ exports[`Picker Example Page 1`] = `
                       "width": 200,
                     },
                     {
-                      "color": "rgb(0, 122, 255)",
+                      "color": "#007AFF",
                     },
                   ]
                 }
@@ -22034,7 +22034,7 @@ exports[`Picker Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -22560,7 +22560,7 @@ exports[`Picker Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -22592,7 +22592,7 @@ exports[`Picker Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -22625,7 +22625,7 @@ exports[`Picker Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -22864,7 +22864,7 @@ exports[`Popup Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -22872,7 +22872,7 @@ exports[`Popup Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -22892,7 +22892,7 @@ exports[`Popup Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -22939,7 +22939,7 @@ exports[`Popup Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -22959,7 +22959,7 @@ exports[`Popup Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -22971,7 +22971,7 @@ exports[`Popup Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -23034,7 +23034,7 @@ exports[`Popup Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -23063,7 +23063,7 @@ exports[`Popup Example Page 1`] = `
                   style={
                     {
                       "alignItems": "center",
-                      "backgroundColor": "rgb(242, 242, 242)",
+                      "backgroundColor": "#F2F2F7",
                       "borderRadius": 3,
                       "height": 125,
                       "justifyContent": "space-around",
@@ -23074,7 +23074,7 @@ exports[`Popup Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -23191,7 +23191,7 @@ exports[`Popup Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -23781,7 +23781,7 @@ exports[`Popup Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -23793,7 +23793,7 @@ exports[`Popup Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -23856,7 +23856,7 @@ exports[`Popup Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -23886,7 +23886,7 @@ exports[`Popup Example Page 1`] = `
                   style={
                     {
                       "alignItems": "center",
-                      "backgroundColor": "rgb(242, 242, 242)",
+                      "backgroundColor": "#F2F2F7",
                       "borderRadius": 3,
                       "height": 125,
                       "justifyContent": "space-around",
@@ -23897,7 +23897,7 @@ exports[`Popup Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -24014,7 +24014,7 @@ exports[`Popup Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -24673,7 +24673,7 @@ exports[`Popup Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -24685,7 +24685,7 @@ exports[`Popup Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -24748,7 +24748,7 @@ exports[`Popup Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -24779,7 +24779,7 @@ exports[`Popup Example Page 1`] = `
                   style={
                     {
                       "alignItems": "center",
-                      "backgroundColor": "rgb(242, 242, 242)",
+                      "backgroundColor": "#F2F2F7",
                       "borderRadius": 3,
                       "height": 125,
                       "justifyContent": "space-around",
@@ -24790,7 +24790,7 @@ exports[`Popup Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -24907,7 +24907,7 @@ exports[`Popup Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -25535,7 +25535,7 @@ exports[`Popup Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -25547,7 +25547,7 @@ exports[`Popup Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -25610,7 +25610,7 @@ exports[`Popup Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -25639,7 +25639,7 @@ exports[`Popup Example Page 1`] = `
                   style={
                     {
                       "alignItems": "center",
-                      "backgroundColor": "rgb(242, 242, 242)",
+                      "backgroundColor": "#F2F2F7",
                       "borderRadius": 3,
                       "height": 125,
                       "justifyContent": "space-around",
@@ -25650,7 +25650,7 @@ exports[`Popup Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -25767,7 +25767,7 @@ exports[`Popup Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -26420,7 +26420,7 @@ exports[`Popup Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -26452,7 +26452,7 @@ exports[`Popup Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -26485,7 +26485,7 @@ exports[`Popup Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -26714,7 +26714,7 @@ exports[`Pressable Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -26761,7 +26761,7 @@ exports[`Pressable Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -26781,7 +26781,7 @@ exports[`Pressable Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -26793,7 +26793,7 @@ exports[`Pressable Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -26855,7 +26855,7 @@ exports[`Pressable Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -26874,7 +26874,7 @@ exports[`Pressable Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -27083,7 +27083,7 @@ exports[`Pressable Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -27095,7 +27095,7 @@ exports[`Pressable Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -27169,7 +27169,7 @@ exports[`Pressable Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                       "paddingVertical": 15,
                       "textAlign": "center",
                     }
@@ -27190,7 +27190,7 @@ exports[`Pressable Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -27657,7 +27657,7 @@ exports[`Pressable Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -27669,7 +27669,7 @@ exports[`Pressable Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -27747,7 +27747,7 @@ exports[`Pressable Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                       "flexWrap": "wrap",
                       "textAlign": "center",
                     }
@@ -27768,7 +27768,7 @@ exports[`Pressable Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -28369,7 +28369,7 @@ exports[`Pressable Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -28381,7 +28381,7 @@ exports[`Pressable Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -28453,7 +28453,7 @@ exports[`Pressable Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                       "textAlign": "center",
                     }
                   }
@@ -28473,7 +28473,7 @@ exports[`Pressable Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -28995,7 +28995,7 @@ exports[`Pressable Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -29027,7 +29027,7 @@ exports[`Pressable Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -29060,7 +29060,7 @@ exports[`Pressable Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -29331,7 +29331,7 @@ exports[`Print Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -29351,7 +29351,7 @@ exports[`Print Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -29363,7 +29363,7 @@ exports[`Print Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -29486,7 +29486,7 @@ exports[`Print Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -29728,7 +29728,7 @@ exports[`Print Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -29760,7 +29760,7 @@ exports[`Print Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -29793,7 +29793,7 @@ exports[`Print Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -30055,7 +30055,7 @@ exports[`ProgressView Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -30075,7 +30075,7 @@ exports[`ProgressView Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -30087,7 +30087,7 @@ exports[`ProgressView Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -30129,7 +30129,7 @@ exports[`ProgressView Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -30270,7 +30270,7 @@ exports[`ProgressView Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -30282,7 +30282,7 @@ exports[`ProgressView Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -30324,7 +30324,7 @@ exports[`ProgressView Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -30465,7 +30465,7 @@ exports[`ProgressView Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -30477,7 +30477,7 @@ exports[`ProgressView Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -30498,7 +30498,7 @@ exports[`ProgressView Example Page 1`] = `
               <RNCProgressViewWindows
                 accessibilityLabel="Colored ProgressView"
                 progress={0.7}
-                progressTintColor="rgb(0, 122, 255)"
+                progressTintColor="#007AFF"
                 style={
                   [
                     {
@@ -30507,7 +30507,7 @@ exports[`ProgressView Example Page 1`] = `
                     undefined,
                   ]
                 }
-                trackTintColor="rgb(216, 216, 216)"
+                trackTintColor="#C6C6C8"
               />
             </View>
             <View
@@ -30521,7 +30521,7 @@ exports[`ProgressView Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -30690,7 +30690,7 @@ exports[`ProgressView Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -30722,7 +30722,7 @@ exports[`ProgressView Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -30755,7 +30755,7 @@ exports[`ProgressView Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -31017,7 +31017,7 @@ exports[`SVG Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -31037,7 +31037,7 @@ exports[`SVG Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -31049,7 +31049,7 @@ exports[`SVG Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -31166,7 +31166,7 @@ exports[`SVG Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -31858,7 +31858,7 @@ exports[`SVG Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -31890,7 +31890,7 @@ exports[`SVG Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -31923,7 +31923,7 @@ exports[`SVG Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -32153,7 +32153,7 @@ exports[`ScrollView Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -32161,7 +32161,7 @@ exports[`ScrollView Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -32181,7 +32181,7 @@ exports[`ScrollView Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -32228,7 +32228,7 @@ exports[`ScrollView Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -32248,7 +32248,7 @@ exports[`ScrollView Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -32260,7 +32260,7 @@ exports[`ScrollView Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -32289,7 +32289,7 @@ exports[`ScrollView Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -32309,7 +32309,7 @@ exports[`ScrollView Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -32542,7 +32542,7 @@ exports[`ScrollView Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -32554,7 +32554,7 @@ exports[`ScrollView Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -32584,7 +32584,7 @@ exports[`ScrollView Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -32604,7 +32604,7 @@ exports[`ScrollView Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -32846,7 +32846,7 @@ exports[`ScrollView Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -32858,7 +32858,7 @@ exports[`ScrollView Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -32888,7 +32888,7 @@ exports[`ScrollView Example Page 1`] = `
                   <Text
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -32908,7 +32908,7 @@ exports[`ScrollView Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -33155,7 +33155,7 @@ exports[`ScrollView Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -33167,7 +33167,7 @@ exports[`ScrollView Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -33198,7 +33198,7 @@ exports[`ScrollView Example Page 1`] = `
                     numberOfLines={5}
                     style={
                       {
-                        "color": "rgb(28, 28, 30)",
+                        "color": "#000000",
                       }
                     }
                   >
@@ -33216,7 +33216,7 @@ exports[`ScrollView Example Page 1`] = `
                       <Text
                         style={
                           {
-                            "color": "rgb(28, 28, 30)",
+                            "color": "#000000",
                             "fontStyle": "italic",
                             "fontWeight": "600",
                           }
@@ -33240,7 +33240,7 @@ exports[`ScrollView Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -33862,7 +33862,7 @@ exports[`ScrollView Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -33894,7 +33894,7 @@ exports[`ScrollView Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -33927,7 +33927,7 @@ exports[`ScrollView Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -34207,7 +34207,7 @@ exports[`SensitiveInfo Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -34227,7 +34227,7 @@ exports[`SensitiveInfo Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -34239,7 +34239,7 @@ exports[`SensitiveInfo Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -34260,7 +34260,7 @@ exports[`SensitiveInfo Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "marginBottom": 10,
                   }
                 }
@@ -34270,7 +34270,7 @@ exports[`SensitiveInfo Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "marginBottom": 10,
                   }
                 }
@@ -34280,7 +34280,7 @@ exports[`SensitiveInfo Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "marginBottom": 10,
                   }
                 }
@@ -34290,7 +34290,7 @@ exports[`SensitiveInfo Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontWeight": "500",
                   }
                 }
@@ -34311,7 +34311,7 @@ exports[`SensitiveInfo Example Page 1`] = `
                   onChangeText={[Function]}
                   style={
                     {
-                      "borderColor": "rgb(216, 216, 216)",
+                      "borderColor": "#C6C6C8",
                       "borderWidth": 1,
                       "height": 36,
                       "width": 200,
@@ -34382,7 +34382,7 @@ exports[`SensitiveInfo Example Page 1`] = `
                           "borderWidth": 1,
                         },
                         {
-                          "backgroundColor": "rgb(0, 122, 255)",
+                          "backgroundColor": "#007AFF",
                         },
                       ]
                     }
@@ -34427,7 +34427,7 @@ exports[`SensitiveInfo Example Page 1`] = `
                   editable={false}
                   style={
                     {
-                      "borderColor": "rgb(216, 216, 216)",
+                      "borderColor": "#C6C6C8",
                       "borderWidth": 1,
                       "height": 36,
                       "width": 200,
@@ -34498,7 +34498,7 @@ exports[`SensitiveInfo Example Page 1`] = `
                           "borderWidth": 1,
                         },
                         {
-                          "backgroundColor": "rgb(0, 122, 255)",
+                          "backgroundColor": "#007AFF",
                         },
                       ]
                     }
@@ -34541,7 +34541,7 @@ exports[`SensitiveInfo Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -35900,7 +35900,7 @@ exports[`SensitiveInfo Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -35932,7 +35932,7 @@ exports[`SensitiveInfo Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -35965,7 +35965,7 @@ exports[`SensitiveInfo Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -36195,7 +36195,7 @@ exports[`Slider Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -36203,7 +36203,7 @@ exports[`Slider Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -36274,7 +36274,7 @@ exports[`Slider Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -36294,7 +36294,7 @@ exports[`Slider Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -36306,7 +36306,7 @@ exports[`Slider Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -36361,7 +36361,7 @@ exports[`Slider Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -36598,7 +36598,7 @@ exports[`Slider Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -36610,7 +36610,7 @@ exports[`Slider Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -36665,7 +36665,7 @@ exports[`Slider Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -36902,7 +36902,7 @@ exports[`Slider Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -36914,7 +36914,7 @@ exports[`Slider Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -36936,9 +36936,9 @@ exports[`Slider Example Page 1`] = `
                 accessibilityLabel="Vertical Example"
                 disabled={false}
                 lowerLimit={-9007199254740991}
-                maximumTrackTintColor="rgb(216, 216, 216)"
+                maximumTrackTintColor="#C6C6C8"
                 maximumValue={100}
-                minimumTrackTintColor="rgb(0, 122, 255)"
+                minimumTrackTintColor="#007AFF"
                 minimumValue={0}
                 onChange={null}
                 onRNCSliderAccessibilityAction={null}
@@ -36972,7 +36972,7 @@ exports[`Slider Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -37226,7 +37226,7 @@ exports[`Slider Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -37238,7 +37238,7 @@ exports[`Slider Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -37298,7 +37298,7 @@ exports[`Slider Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -37575,7 +37575,7 @@ exports[`Slider Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -37607,7 +37607,7 @@ exports[`Slider Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -37640,7 +37640,7 @@ exports[`Slider Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -37879,7 +37879,7 @@ exports[`Switch Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -37887,7 +37887,7 @@ exports[`Switch Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -37907,7 +37907,7 @@ exports[`Switch Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -37954,7 +37954,7 @@ exports[`Switch Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -37974,7 +37974,7 @@ exports[`Switch Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -37986,7 +37986,7 @@ exports[`Switch Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -38032,7 +38032,7 @@ exports[`Switch Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -38161,7 +38161,7 @@ exports[`Switch Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -38173,7 +38173,7 @@ exports[`Switch Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -38220,7 +38220,7 @@ exports[`Switch Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -38350,7 +38350,7 @@ exports[`Switch Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -38362,7 +38362,7 @@ exports[`Switch Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -38388,7 +38388,7 @@ exports[`Switch Example Page 1`] = `
                 onChange={[Function]}
                 onResponderTerminationRequest={[Function]}
                 onStartShouldSetResponder={[Function]}
-                onTintColor="rgb(0, 122, 255)"
+                onTintColor="#007AFF"
                 style={
                   {
                     "height": 31,
@@ -38396,7 +38396,7 @@ exports[`Switch Example Page 1`] = `
                   }
                 }
                 thumbTintColor="#FFFFFF"
-                tintColor="rgb(28, 28, 30)"
+                tintColor="#000000"
                 value={false}
               />
             </View>
@@ -38411,7 +38411,7 @@ exports[`Switch Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -38617,7 +38617,7 @@ exports[`Switch Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -38649,7 +38649,7 @@ exports[`Switch Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -38682,7 +38682,7 @@ exports[`Switch Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -38930,7 +38930,7 @@ exports[`Text Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -38938,7 +38938,7 @@ exports[`Text Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -38958,7 +38958,7 @@ exports[`Text Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -39005,7 +39005,7 @@ exports[`Text Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -39025,7 +39025,7 @@ exports[`Text Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -39037,7 +39037,7 @@ exports[`Text Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -39058,7 +39058,7 @@ exports[`Text Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
               >
@@ -39076,7 +39076,7 @@ exports[`Text Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -39221,7 +39221,7 @@ exports[`Text Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -39233,7 +39233,7 @@ exports[`Text Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -39254,7 +39254,7 @@ exports[`Text Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontStyle": "italic",
                     "fontWeight": "600",
                   }
@@ -39274,7 +39274,7 @@ exports[`Text Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -39485,7 +39485,7 @@ exports[`Text Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -39497,7 +39497,7 @@ exports[`Text Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -39519,7 +39519,7 @@ exports[`Text Example Page 1`] = `
                 selectable={true}
                 style={
                   {
-                    "color": "rgb(0, 122, 255)",
+                    "color": "#007AFF",
                   }
                 }
               >
@@ -39537,7 +39537,7 @@ exports[`Text Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -39702,7 +39702,7 @@ exports[`Text Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -39714,7 +39714,7 @@ exports[`Text Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -39736,7 +39736,7 @@ exports[`Text Example Page 1`] = `
                 numberOfLines={2}
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "textAlign": "center",
                   }
                 }
@@ -39755,7 +39755,7 @@ exports[`Text Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -40024,7 +40024,7 @@ exports[`Text Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -40036,7 +40036,7 @@ exports[`Text Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -40057,7 +40057,7 @@ exports[`Text Example Page 1`] = `
               <Text
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontWeight": "600",
                   }
                 }
@@ -40066,7 +40066,7 @@ exports[`Text Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(0, 122, 255)",
+                      "color": "#007AFF",
                     }
                   }
                 >
@@ -40094,7 +40094,7 @@ exports[`Text Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -40311,7 +40311,7 @@ exports[`Text Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -40323,7 +40323,7 @@ exports[`Text Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -40363,7 +40363,7 @@ exports[`Text Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -40575,7 +40575,7 @@ exports[`Text Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -40587,7 +40587,7 @@ exports[`Text Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -40627,7 +40627,7 @@ exports[`Text Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -40860,7 +40860,7 @@ exports[`Text Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -40872,7 +40872,7 @@ exports[`Text Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -40893,7 +40893,7 @@ exports[`Text Example Page 1`] = `
               <Text
                 style={
                   {
-                    "backgroundColor": "rgb(216, 216, 216)",
+                    "backgroundColor": "#C6C6C8",
                     "textTransform": "uppercase",
                     "writingDirection": "rtl",
                   }
@@ -40913,7 +40913,7 @@ exports[`Text Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -41190,7 +41190,7 @@ Here is a line
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -41222,7 +41222,7 @@ Here is a line
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -41255,7 +41255,7 @@ Here is a line
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -41503,7 +41503,7 @@ exports[`TextInput Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -41511,7 +41511,7 @@ exports[`TextInput Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -41531,7 +41531,7 @@ exports[`TextInput Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -41578,7 +41578,7 @@ exports[`TextInput Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -41598,7 +41598,7 @@ exports[`TextInput Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -41610,7 +41610,7 @@ exports[`TextInput Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -41633,9 +41633,9 @@ exports[`TextInput Example Page 1`] = `
                 placeholder="A simple TextInput..."
                 style={
                   {
-                    "borderColor": "rgb(216, 216, 216)",
+                    "borderColor": "#C6C6C8",
                     "borderWidth": 1,
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
                 value=""
@@ -41652,7 +41652,7 @@ exports[`TextInput Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -41832,7 +41832,7 @@ exports[`TextInput Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -41844,7 +41844,7 @@ exports[`TextInput Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -41868,9 +41868,9 @@ exports[`TextInput Example Page 1`] = `
                 placeholder="Enter multiline text input here..."
                 style={
                   {
-                    "borderColor": "rgb(216, 216, 216)",
+                    "borderColor": "#C6C6C8",
                     "borderWidth": 1,
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                   }
                 }
                 value=""
@@ -41887,7 +41887,7 @@ exports[`TextInput Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -42083,7 +42083,7 @@ exports[`TextInput Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -42095,7 +42095,7 @@ exports[`TextInput Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -42120,9 +42120,9 @@ exports[`TextInput Example Page 1`] = `
                 style={
                   {
                     "backgroundColor": "rgb(52, 122, 226)",
-                    "borderColor": "rgb(216, 216, 216)",
+                    "borderColor": "#C6C6C8",
                     "borderWidth": 1,
-                    "color": "rgb(255, 255, 255)",
+                    "color": "#FFFFFF",
                     "fontStyle": "italic",
                     "fontWeight": "700",
                   }
@@ -42141,7 +42141,7 @@ exports[`TextInput Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -42428,7 +42428,7 @@ exports[`TextInput Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -42440,7 +42440,7 @@ exports[`TextInput Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -42462,10 +42462,10 @@ exports[`TextInput Example Page 1`] = `
                 editable={false}
                 onChangeText={[Function]}
                 placeholder="Disabled TextInput..."
-                placeholderTextColor="rgb(0, 122, 255)"
+                placeholderTextColor="#007AFF"
                 style={
                   {
-                    "borderColor": "rgb(216, 216, 216)",
+                    "borderColor": "#C6C6C8",
                     "borderWidth": 1,
                   }
                 }
@@ -42483,7 +42483,7 @@ exports[`TextInput Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -42719,7 +42719,7 @@ exports[`TextInput Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -42751,7 +42751,7 @@ exports[`TextInput Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -42784,7 +42784,7 @@ exports[`TextInput Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -43073,7 +43073,7 @@ exports[`TextToSpeech Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -43093,7 +43093,7 @@ exports[`TextToSpeech Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -43105,7 +43105,7 @@ exports[`TextToSpeech Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -43279,7 +43279,7 @@ exports[`TextToSpeech Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -43486,7 +43486,7 @@ exports[`TextToSpeech Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -43518,7 +43518,7 @@ exports[`TextToSpeech Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -43551,7 +43551,7 @@ exports[`TextToSpeech Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -43764,7 +43764,7 @@ exports[`TouchableHighlight Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -43811,7 +43811,7 @@ exports[`TouchableHighlight Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -43831,7 +43831,7 @@ exports[`TouchableHighlight Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -43843,7 +43843,7 @@ exports[`TouchableHighlight Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -43904,7 +43904,7 @@ exports[`TouchableHighlight Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -43923,7 +43923,7 @@ exports[`TouchableHighlight Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -44342,7 +44342,7 @@ exports[`TouchableHighlight Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -44354,7 +44354,7 @@ exports[`TouchableHighlight Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -44401,7 +44401,7 @@ exports[`TouchableHighlight Example Page 1`] = `
                 style={
                   {
                     "alignItems": "center",
-                    "backgroundColor": "rgb(0, 122, 255)",
+                    "backgroundColor": "#007AFF",
                     "borderRadius": 3,
                     "height": 40,
                     "justifyContent": "center",
@@ -44430,7 +44430,7 @@ exports[`TouchableHighlight Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -44849,7 +44849,7 @@ exports[`TouchableHighlight Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -44861,7 +44861,7 @@ exports[`TouchableHighlight Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -44923,7 +44923,7 @@ exports[`TouchableHighlight Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -44942,7 +44942,7 @@ exports[`TouchableHighlight Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -45402,7 +45402,7 @@ exports[`TouchableHighlight Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -45434,7 +45434,7 @@ exports[`TouchableHighlight Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -45467,7 +45467,7 @@ exports[`TouchableHighlight Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -45687,7 +45687,7 @@ exports[`TouchableOpacity Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -45734,7 +45734,7 @@ exports[`TouchableOpacity Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -45754,7 +45754,7 @@ exports[`TouchableOpacity Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -45766,7 +45766,7 @@ exports[`TouchableOpacity Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -45842,7 +45842,7 @@ exports[`TouchableOpacity Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -45861,7 +45861,7 @@ exports[`TouchableOpacity Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -46312,7 +46312,7 @@ exports[`TouchableOpacity Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -46324,7 +46324,7 @@ exports[`TouchableOpacity Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -46384,7 +46384,7 @@ exports[`TouchableOpacity Example Page 1`] = `
                 style={
                   {
                     "alignItems": "center",
-                    "backgroundColor": "rgb(0, 122, 255)",
+                    "backgroundColor": "#007AFF",
                     "borderRadius": 3,
                     "height": 40,
                     "justifyContent": "center",
@@ -46415,7 +46415,7 @@ exports[`TouchableOpacity Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -46866,7 +46866,7 @@ exports[`TouchableOpacity Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -46878,7 +46878,7 @@ exports[`TouchableOpacity Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -46955,7 +46955,7 @@ exports[`TouchableOpacity Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -46974,7 +46974,7 @@ exports[`TouchableOpacity Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -47440,7 +47440,7 @@ exports[`TouchableOpacity Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -47452,7 +47452,7 @@ exports[`TouchableOpacity Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -47529,7 +47529,7 @@ exports[`TouchableOpacity Example Page 1`] = `
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -47548,7 +47548,7 @@ exports[`TouchableOpacity Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -48015,7 +48015,7 @@ activeOpacity={
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -48027,7 +48027,7 @@ activeOpacity={
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -48103,7 +48103,7 @@ activeOpacity={
                 <Text
                   style={
                     {
-                      "color": "rgb(28, 28, 30)",
+                      "color": "#000000",
                     }
                   }
                 >
@@ -48122,7 +48122,7 @@ activeOpacity={
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -48656,7 +48656,7 @@ onPress={
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -48688,7 +48688,7 @@ onPress={
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -48721,7 +48721,7 @@ onPress={
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -48960,7 +48960,7 @@ exports[`View Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -48968,7 +48968,7 @@ exports[`View Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -48988,7 +48988,7 @@ exports[`View Example Page 1`] = `
                 "paddingTop": 5,
               },
               {
-                "backgroundColor": "rgb(0, 122, 255)",
+                "backgroundColor": "#007AFF",
               },
             ]
           }
@@ -49035,7 +49035,7 @@ exports[`View Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -49055,7 +49055,7 @@ exports[`View Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -49067,7 +49067,7 @@ exports[`View Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -49098,7 +49098,7 @@ exports[`View Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -49225,7 +49225,7 @@ exports[`View Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -49237,7 +49237,7 @@ exports[`View Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -49258,7 +49258,7 @@ exports[`View Example Page 1`] = `
               <View
                 style={
                   {
-                    "backgroundColor": "rgb(28, 28, 30)",
+                    "backgroundColor": "#000000",
                     "borderRadius": 2,
                     "height": 50,
                     "width": 100,
@@ -49277,7 +49277,7 @@ exports[`View Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -49524,7 +49524,7 @@ exports[`View Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -49536,7 +49536,7 @@ exports[`View Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -49565,7 +49565,7 @@ exports[`View Example Page 1`] = `
                 <View
                   style={
                     {
-                      "backgroundColor": "rgb(28, 28, 30)",
+                      "backgroundColor": "#000000",
                       "borderRadius": 2,
                       "flex": 1,
                     }
@@ -49574,7 +49574,7 @@ exports[`View Example Page 1`] = `
                 <View
                   style={
                     {
-                      "backgroundColor": "rgb(0, 122, 255)",
+                      "backgroundColor": "#007AFF",
                       "borderRadius": 2,
                       "flex": 2,
                     }
@@ -49593,7 +49593,7 @@ exports[`View Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -50100,7 +50100,7 @@ exports[`View Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -50112,7 +50112,7 @@ exports[`View Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -50142,7 +50142,7 @@ exports[`View Example Page 1`] = `
                 <View
                   style={
                     {
-                      "backgroundColor": "rgb(28, 28, 30)",
+                      "backgroundColor": "#000000",
                       "borderRadius": 2,
                       "width": 50,
                     }
@@ -50151,7 +50151,7 @@ exports[`View Example Page 1`] = `
                 <View
                   style={
                     {
-                      "backgroundColor": "rgb(0, 122, 255)",
+                      "backgroundColor": "#007AFF",
                       "borderRadius": 2,
                       "width": 50,
                     }
@@ -50170,7 +50170,7 @@ exports[`View Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -50755,7 +50755,7 @@ exports[`View Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -50767,7 +50767,7 @@ exports[`View Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -50797,7 +50797,7 @@ exports[`View Example Page 1`] = `
                   style={
                     {
                       "alignSelf": "flex-start",
-                      "backgroundColor": "rgb(28, 28, 30)",
+                      "backgroundColor": "#000000",
                       "borderRadius": 2,
                       "height": 30,
                       "width": 30,
@@ -50808,7 +50808,7 @@ exports[`View Example Page 1`] = `
                   style={
                     {
                       "alignSelf": "center",
-                      "backgroundColor": "rgb(0, 122, 255)",
+                      "backgroundColor": "#007AFF",
                       "borderRadius": 2,
                       "height": 30,
                       "width": 60,
@@ -50819,7 +50819,7 @@ exports[`View Example Page 1`] = `
                   style={
                     {
                       "alignSelf": "flex-end",
-                      "backgroundColor": "rgb(216, 216, 216)",
+                      "backgroundColor": "#C6C6C8",
                       "borderRadius": 2,
                       "height": 30,
                       "width": 100,
@@ -50839,7 +50839,7 @@ exports[`View Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -51791,7 +51791,7 @@ exports[`View Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -51803,7 +51803,7 @@ exports[`View Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -51831,7 +51831,7 @@ exports[`View Example Page 1`] = `
                 <View
                   style={
                     {
-                      "backgroundColor": "rgb(28, 28, 30)",
+                      "backgroundColor": "#000000",
                       "borderRadius": 2,
                       "height": 30,
                       "left": 5,
@@ -51843,7 +51843,7 @@ exports[`View Example Page 1`] = `
                 <View
                   style={
                     {
-                      "backgroundColor": "rgb(0, 122, 255)",
+                      "backgroundColor": "#007AFF",
                       "borderRadius": 2,
                       "bottom": 10,
                       "height": 30,
@@ -51866,7 +51866,7 @@ exports[`View Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -52644,7 +52644,7 @@ exports[`View Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -52656,7 +52656,7 @@ exports[`View Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -52677,8 +52677,8 @@ exports[`View Example Page 1`] = `
               <View
                 style={
                   {
-                    "backgroundColor": "rgb(216, 216, 216)",
-                    "borderColor": "rgb(0, 122, 255)",
+                    "backgroundColor": "#C6C6C8",
+                    "borderColor": "#007AFF",
                     "borderLeftWidth": 10,
                     "borderRightWidth": 10,
                     "borderWidth": 5,
@@ -52699,7 +52699,7 @@ exports[`View Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -53032,7 +53032,7 @@ style={{
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -53044,7 +53044,7 @@ style={{
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -53065,9 +53065,9 @@ style={{
               <View
                 style={
                   {
-                    "backgroundColor": "rgb(216, 216, 216)",
+                    "backgroundColor": "#C6C6C8",
                     "borderBottomRightRadius": 4,
-                    "borderColor": "rgb(28, 28, 30)",
+                    "borderColor": "#000000",
                     "borderTopLeftRadius": 4,
                     "borderWidth": 5,
                     "height": 50,
@@ -53087,7 +53087,7 @@ style={{
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -53420,7 +53420,7 @@ style={{
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -53432,7 +53432,7 @@ style={{
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -53455,7 +53455,7 @@ style={{
                 onMouseLeave={[Function]}
                 style={
                   {
-                    "backgroundColor": "rgb(0, 122, 255)",
+                    "backgroundColor": "#007AFF",
                     "height": 50,
                     "width": 100,
                   }
@@ -53473,7 +53473,7 @@ style={{
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -53727,7 +53727,7 @@ style={{
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -53759,7 +53759,7 @@ style={{
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -53792,7 +53792,7 @@ style={{
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -54040,7 +54040,7 @@ exports[`WebView Example Page 1`] = `
                   "paddingRight": 4,
                 },
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                 },
               ]
             }
@@ -54048,7 +54048,7 @@ exports[`WebView Example Page 1`] = `
             Wrapped Windows Control
           </Text>
           <XamlControl
-            foreground="rgb(28, 28, 30)"
+            foreground="#000000"
             symbol={57828}
             type="Windows.UI.Xaml.Controls.SymbolIcon"
           />
@@ -54119,7 +54119,7 @@ exports[`WebView Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -54139,7 +54139,7 @@ exports[`WebView Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -54151,7 +54151,7 @@ exports[`WebView Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -54223,7 +54223,7 @@ exports[`WebView Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -54418,7 +54418,7 @@ exports[`WebView Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -54430,7 +54430,7 @@ exports[`WebView Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -54502,7 +54502,7 @@ exports[`WebView Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -54723,7 +54723,7 @@ exports[`WebView Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -54755,7 +54755,7 @@ exports[`WebView Example Page 1`] = `
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -54788,7 +54788,7 @@ exports[`WebView Example Page 1`] = `
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }
@@ -55059,7 +55059,7 @@ exports[`Xaml Example Page 1`] = `
             "paddingRight": 20,
           },
           {
-            "color": "rgb(28, 28, 30)",
+            "color": "#000000",
           },
         ]
       }
@@ -55079,7 +55079,7 @@ exports[`Xaml Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -55091,7 +55091,7 @@ exports[`Xaml Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -55125,7 +55125,7 @@ exports[`Xaml Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -55266,7 +55266,7 @@ exports[`Xaml Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -55278,7 +55278,7 @@ exports[`Xaml Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -55318,7 +55318,7 @@ exports[`Xaml Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -55487,7 +55487,7 @@ exports[`Xaml Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -55499,7 +55499,7 @@ exports[`Xaml Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -55533,7 +55533,7 @@ exports[`Xaml Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -55660,7 +55660,7 @@ exports[`Xaml Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -55672,7 +55672,7 @@ exports[`Xaml Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -55723,7 +55723,7 @@ exports[`Xaml Example Page 1`] = `
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -56136,7 +56136,7 @@ exports[`Xaml Example Page 1`] = `
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -56148,7 +56148,7 @@ exports[`Xaml Example Page 1`] = `
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -56212,7 +56212,7 @@ You selected Option 1
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -56876,7 +56876,7 @@ You selected Option 1
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -56888,7 +56888,7 @@ You selected Option 1
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -56948,7 +56948,7 @@ You selected Option 1
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -57393,7 +57393,7 @@ You selected Option 1
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -57405,7 +57405,7 @@ You selected Option 1
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -57440,7 +57440,7 @@ You selected Option 1
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -57581,7 +57581,7 @@ You selected Option 1
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -57593,7 +57593,7 @@ You selected Option 1
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -57660,7 +57660,7 @@ You selected Option 1
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -58292,7 +58292,7 @@ You selected Option 1
             accessibilityRole="header"
             style={
               {
-                "color": "rgb(28, 28, 30)",
+                "color": "#000000",
                 "fontSize": 20,
                 "marginBottom": 10,
                 "marginTop": 30,
@@ -58304,7 +58304,7 @@ You selected Option 1
           <View
             style={
               {
-                "borderColor": "rgb(216, 216, 216)",
+                "borderColor": "#C6C6C8",
                 "borderRadius": 8,
                 "borderWidth": 1,
               }
@@ -58370,7 +58370,7 @@ You selected Option 1
                       "CardBackgroundFillColorDefaultBrush",
                     ],
                   },
-                  "borderColor": "rgb(216, 216, 216)",
+                  "borderColor": "#C6C6C8",
                   "borderTopWidth": 1,
                   "borderWidth": 0,
                   "padding": 12,
@@ -59033,7 +59033,7 @@ You selected Option 1
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -59065,7 +59065,7 @@ You selected Option 1
                 accessibilityRole="header"
                 style={
                   {
-                    "color": "rgb(28, 28, 30)",
+                    "color": "#000000",
                     "fontSize": 20,
                     "marginBottom": 10,
                   }
@@ -59098,7 +59098,7 @@ You selected Option 1
               accessibilityRole="header"
               style={
                 {
-                  "color": "rgb(28, 28, 30)",
+                  "color": "#000000",
                   "fontSize": 20,
                   "marginBottom": 10,
                 }

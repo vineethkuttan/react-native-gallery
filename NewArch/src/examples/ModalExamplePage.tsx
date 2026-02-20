@@ -1,16 +1,18 @@
 'use strict';
-import {Button, View, Text, StyleSheet, Dimensions, PlatformColor, AccessibilityInfo, Pressable} from 'react-native';
+import {Button, View, Text, StyleSheet, Dimensions, PlatformColor, AccessibilityInfo} from 'react-native';
 import {Modal} from 'react-native-windows'
 import React from 'react';
 import {Example} from '../components/Example';
 import {Page} from '../components/Page';
 import {usePageFocusManagement} from '../hooks/usePageFocusManagement';
+import {useTheme} from '../Navigation';
 
 export const ModalExamplePage: React.FunctionComponent<{navigation?: any}> = ({navigation}) => {
   const firstModalExampleRef = usePageFocusManagement(navigation);
   const [modal1, setModal1] = React.useState(false);
   const [modal2, setModal2] = React.useState(false);
   const [modal3, setModal3] = React.useState(false);
+  const {colors, dark} = useTheme();
   const changeModal1 = () => {
     AccessibilityInfo.announceForAccessibility("This is a simple modal")
     setModal1(!modal1);
@@ -128,16 +130,9 @@ export const ModalExamplePage: React.FunctionComponent<{navigation?: any}> = ({n
           onAccessibilityTap={changeModal1}/>
         <Modal visible={modal1} onRequestClose={changeModal1}>
             <View style={styles.simpleModalView}>
-              <Pressable
-                style={styles.closeButton}
-                onPress={changeModal1}
-                accessibilityRole="button"
-                accessibilityLabel="Close Modal">
-                <Text style={styles.closeButtonText}>×</Text>
-              </Pressable>
               <Text style={styles.simpleModalText}>This is a simple Modal</Text>
               <Button
-                color={'#8D8383'}
+                color={dark ? colors.primary : '#63ce6cff'}
                 ref={modal1FirstButtonRef}
                 title="Close Modal"
                 accessibilityLabel="Close Modal"
@@ -157,10 +152,11 @@ export const ModalExamplePage: React.FunctionComponent<{navigation?: any}> = ({n
         <Modal visible={modal2} onRequestClose={changeModal2}>
           <View style={[styles.centeredView, styles.modalBackdrop]}>
             <View style={styles.modalView}>
-              <Text style={styles.textStyle}>
+              <Text style={styles.complexModalText}>
                 This is a Modal with more complex styling
               </Text>
               <Button
+                color={dark ? colors.primary : '#63ce6cff'}
                 ref={modal2FirstButtonRef}
                 title="Close Modal"
                 accessibilityLabel="Close Modal"
@@ -192,19 +188,13 @@ export const ModalExamplePage: React.FunctionComponent<{navigation?: any}> = ({n
             setOnShowCount(onShowCount + 1);
           }}>
           <View style={styles.eventsModalView}>
-            <Pressable
-              style={styles.closeButton}
-              onPress={changeModal3}
-              accessibilityRole="button"
-              accessibilityLabel="Close Modal">
-              <Text style={styles.closeButtonText}>×</Text>
-            </Pressable>
             <View style={styles.container}>
-              <Text style={{fontWeight: 'bold'}}>Modal Events</Text>
-              <Text>onShow event Count = {onShowCount}</Text>
-              <Text>onDismiss event Count = {onDismissCount}</Text>
+              <Text style={styles.modalTextBold}>Modal Events</Text>
+              <Text style={styles.modalText}>onShow event Count = {onShowCount}</Text>
+              <Text style={styles.modalText}>onDismiss event Count = {onDismissCount}</Text>
             </View>
             <Button
+              color={dark ? colors.primary : '#63ce6cff'}
               ref={modal3FirstButtonRef}
               title="Close Modal"
               accessibilityLabel="Close Modal"
@@ -261,11 +251,21 @@ const styles = StyleSheet.create({
     paddingTop: 5,
     marginBottom: 20,
   },
+  complexModalText: {
+    color: 'black',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    paddingTop: 5,
+    marginBottom: 20,
+  },
   simpleModalView: {
     width: 500,
+    height: 200,
     borderRadius: 10,
     padding: 15,
     alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
     shadowOffset: {
       width: 0,
       height: 2,
@@ -277,5 +277,21 @@ const styles = StyleSheet.create({
   simpleModalText: {
     color: 'black',
     marginBottom: 20,
+  },
+  eventsModalView: {
+    width: 500,
+    height: 300,
+    borderRadius: 10,
+    padding: 15,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+  },
+  modalText: {
+    color: 'black',
+  },
+  modalTextBold: {
+    color: 'black',
+    fontWeight: 'bold',
   },
 });

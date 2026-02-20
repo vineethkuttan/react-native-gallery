@@ -10,10 +10,10 @@ export const TextInputExamplePage: React.FunctionComponent<{navigation?: any}> =
   const firstTextInputExampleRef = usePageFocusManagement(navigation);
   const {colors} = useTheme();
 
-  const [text1, setText1] = React.useState('');
-  const [text2, setText2] = React.useState('');
-  const [text3, setText3] = React.useState('');
-  const [text4, setText4] = React.useState('');
+  const [_text1, setText1] = React.useState('');
+  const [_text2, setText2] = React.useState('');
+  const [_text3, setText3] = React.useState('');
+  const [_text4, setText4] = React.useState('');
 
   const onChangeText1 = (text: string) => {
     setText1(text);
@@ -54,6 +54,7 @@ export const TextInputExamplePage: React.FunctionComponent<{navigation?: any}> =
   onChangeText={onChangeText4}
   value={text4}
   editable={false}
+  focusable={false}
   placeholder="Disabled TextInput..."
   placeholderTextColor={colors.primary}/>`;
 
@@ -90,7 +91,6 @@ export const TextInputExamplePage: React.FunctionComponent<{navigation?: any}> =
             color: colors.text,
           }}
           onChangeText={onChangeText1}
-          value={text1}
           placeholder="A simple TextInput..."
         />
       </Example>
@@ -102,10 +102,14 @@ export const TextInputExamplePage: React.FunctionComponent<{navigation?: any}> =
             borderColor: colors.border,
             borderWidth: 1,
             color: colors.text,
+            paddingHorizontal: 8,
+            paddingVertical: 8,
+            textAlignVertical: 'top',
+            minHeight: 100,
           }}
           onChangeText={onChangeText2}
-          value={text2}
           multiline
+          scrollEnabled={false}
           placeholder="Enter multiline text input here..."
         />
       </Example>
@@ -122,7 +126,6 @@ export const TextInputExamplePage: React.FunctionComponent<{navigation?: any}> =
             color: colors.card,
           }}
           onChangeText={onChangeText3}
-          value={text3}
           placeholder="A colored TextInput with bolded and italicized text..."
           placeholderTextColor="rgb(0,0,0)"
         />
@@ -133,8 +136,8 @@ export const TextInputExamplePage: React.FunctionComponent<{navigation?: any}> =
         <TextInput
           style={{borderColor: colors.border, borderWidth: 1, color: colors.text}}
           onChangeText={onChangeText4}
-          value={text4}
           editable={false}
+          focusable={false}
           placeholder="Disabled TextInput..."
           placeholderTextColor={colors.primary}
         />

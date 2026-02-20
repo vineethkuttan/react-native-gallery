@@ -7,6 +7,8 @@ import {
   Linking,
   PlatformColor,
   Image,
+  useColorScheme,
+  Animated,
 } from 'react-native';
 import React from 'react';
 import type {PropsWithChildren} from 'react';
@@ -68,33 +70,57 @@ type HeaderTileType = PropsWithChildren<{
 const HeaderTile = React.forwardRef<any, HeaderTileType>((props, ref) => {
   const [isHovered, setIsHovered] = React.useState(false);
   const [isPressing, setIsPressing] = React.useState(false);
+  const scaleAnim = React.useRef(new Animated.Value(1)).current;
   const styles = createStyles(isHovered, isPressing);
+
+  const handleHoverIn = () => {
+    setIsHovered(true);
+    Animated.spring(scaleAnim, {
+      toValue: 1.04,
+      friction: 8,
+      tension: 80,
+      useNativeDriver: true,
+    }).start();
+  };
+
+  const handleHoverOut = () => {
+    setIsHovered(false);
+    Animated.spring(scaleAnim, {
+      toValue: 1,
+      friction: 8,
+      tension: 60,
+      useNativeDriver: true,
+    }).start();
+  };
 
   const openInNewWindowIcon = '\uE8A7';
   return (
-    <Pressable
-      ref={ref}
-      style={styles.headerTile}
-      onPress={() => Linking.openURL(props.link)}
-      onAccessibilityTap={() => Linking.openURL(props.link)}
-      onPressIn={() => setIsPressing(true)}
-      onPressOut={() => setIsPressing(false)}
-      onHoverIn={() => setIsHovered(true)}
-      onHoverOut={() => setIsHovered(false)}
-      accessibilityRole="button"
-      accessibilityLabel={props.title}
-      accessibilityHint={props.description}>
-      <View style={styles.tileIconContent}>{props.children}</View>
-      <Text style={styles.tileTitle}>{props.title}</Text>
-      <Text style={styles.tileDescription}>{props.description}</Text>
-      <Text style={styles.tileLinkIcon} accessible={false}>
-        {openInNewWindowIcon}
-      </Text>
-    </Pressable>
+    <Animated.View style={{transform: [{scale: scaleAnim}]}}>
+      <Pressable
+        ref={ref}
+        style={styles.headerTile}
+        onPress={() => Linking.openURL(props.link)}
+        onAccessibilityTap={() => Linking.openURL(props.link)}
+        onPressIn={() => setIsPressing(true)}
+        onPressOut={() => setIsPressing(false)}
+        onHoverIn={handleHoverIn}
+        onHoverOut={handleHoverOut}
+        accessibilityRole="button"
+        accessibilityLabel={props.title}
+        accessibilityHint={props.description}>
+        <View style={styles.tileIconContent}>{props.children}</View>
+        <Text style={styles.tileTitle}>{props.title}</Text>
+        <Text style={styles.tileDescription}>{props.description}</Text>
+        <Text style={styles.tileLinkIcon} accessible={false}>
+          {openInNewWindowIcon}
+        </Text>
+      </Pressable>
+    </Animated.View>
   );
 });
 
 const TileGallery = ({ firstTileRef }: { firstTileRef?: React.RefObject<any> }) => {
+  const colorScheme = useColorScheme();
   const items = [
     <HeaderTile
       ref={firstTileRef}
@@ -156,8 +182,15 @@ const TileGallery = ({ firstTileRef }: { firstTileRef?: React.RefObject<any> }) 
       title="Code samples"
       description="Find samples that demonstrate specific tasks, features, and APIs."
       link="https://github.com/microsoft/react-native-windows-samples">
-      <View style={{ height: 60, justifyContent: 'center', alignItems: 'center' }}>
-        <Text allowFontScaling style={{ fontFamily: 'Segoe MDL2 Assets', fontSize: 42, textAlign: 'center' }}>&#xE943;</Text>
+      <View style={{height: 60, justifyContent: 'center', alignItems: 'center'}}>
+        <Text
+          style={{
+            fontFamily: 'Segoe MDL2 Assets',
+            fontSize: 42,
+            color: PlatformColor('TextFillColorPrimary'),
+          }}>
+          {''}
+        </Text>
       </View>
     </HeaderTile>,
     <HeaderTile
@@ -165,9 +198,14 @@ const TileGallery = ({ firstTileRef }: { firstTileRef?: React.RefObject<any> }) 
       description="Upload your app to the Store."
       link="https://developer.microsoft.com/windows/">
       <Image
+        key={colorScheme}
         accessible={true}
         accessibilityRole="image"
-        source={require('../../assets/HomeHeaderTiles/Header-Store.light.png')}
+        source={
+          colorScheme === 'dark'
+            ? require('../../assets/HomeHeaderTiles/Header-Store.dark.png')
+            : require('../../assets/HomeHeaderTiles/Header-Store.light.png')
+        }
         style={{width: 64, height: 64}}
       />
     </HeaderTile>,

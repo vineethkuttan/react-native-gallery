@@ -9,7 +9,7 @@ import {
   AccessibilityInfo,
   ScrollView,
 } from 'react-native';
-import {NavigationContainer} from './Navigation';
+import {NavigationContainer, useNavigation} from './Navigation';
 import {
   createDrawerNavigator,
   getDrawerStatusFromState,
@@ -27,6 +27,14 @@ import {PlatformColor} from 'react-native';
 import HighContrastTheme from './themes/HighContrastTheme';
 import useHighContrastState from './hooks/useHighContrastState';
 import {InteractionManager} from 'react-native';
+import {
+  NavigationHistoryProvider,
+  useNavigationHistory,
+} from './hooks/useNavigationHistory';
+
+// Context for signaling focus to ScreenWrapper hamburger
+export const FocusScreenWrapperContext = React.createContext<number | null>(null);
+export const FocusScreenWrapperSetterContext = React.createContext<React.Dispatch<React.SetStateAction<number | null>>>(() => {});
 
 const styles = StyleSheet.create({
   menu: {
@@ -236,7 +244,7 @@ const DrawerCollapsibleCategory = ({
         onHoverIn={() => setIsHovered(true)}
         onHoverOut={() => setIsHovered(false)}
         accessibilityRole="button"
-        accessibilityLabel={`${categoryLabel}, ${isExpanded ? 'expanded' : 'collapsed'}`}
+        accessibilityLabel={categoryLabel}
         accessibilityState={{expanded: isExpanded}}
         {...(positionInSet && setSize ? {accessibilityPosInSet: positionInSet, accessibilitySetSize: setSize} : {})}
         accessibilityActions={[
@@ -333,6 +341,7 @@ function CustomDrawerContent({ navigation }: { navigation: any }) {
 
   const navigationState = navigation.getState();
   const currentRoute = navigationState.routeNames[navigationState.index];
+  const setFocusTimestamp = React.useContext(FocusScreenWrapperSetterContext);
 
   // Refs for main navigation items
   const hamburgerRef = useRef<View>(null);
@@ -346,6 +355,34 @@ function CustomDrawerContent({ navigation }: { navigation: any }) {
     // This is a minimal implementation to support arrow keys
     if (e.nativeEvent.key === 'ArrowDown' || e.nativeEvent.key === 'ArrowUp') {
       // Allow default focus management
+      return;
+    }
+  };
+
+  // Handler for Settings button - cycles focus back to hamburger on Tab
+  const handleSettingsKeyDown = (e: any) => {
+    if (e.nativeEvent.key === 'Tab' && !e.nativeEvent.shiftKey) {
+      // Prevent default Tab behavior and cycle focus to hamburger
+      e.preventDefault();
+      if (hamburgerRef.current) {
+        hamburgerRef.current.focus();
+      }
+    } else if (e.nativeEvent.key === 'ArrowDown' || e.nativeEvent.key === 'ArrowUp') {
+      // Allow default focus management for arrow keys
+      return;
+    }
+  };
+
+  // Handler for hamburger button - cycles focus to Settings on Shift+Tab
+  const handleHamburgerKeyDown = (e: any) => {
+    if (e.nativeEvent.key === 'Tab' && e.nativeEvent.shiftKey) {
+      // Prevent default Shift+Tab behavior and cycle focus to Settings
+      e.preventDefault();
+      if (settingsRef.current) {
+        settingsRef.current.focus();
+      }
+    } else if (e.nativeEvent.key === 'ArrowDown' || e.nativeEvent.key === 'ArrowUp') {
+      // Allow default focus management for arrow keys
       return;
     }
   };
@@ -368,6 +405,7 @@ function CustomDrawerContent({ navigation }: { navigation: any }) {
         style={styles.menu}
         onPress={() => {
           if (isDrawerOpen) {
+            setFocusTimestamp(Date.now());
             navigation.closeDrawer();
             AccessibilityInfo.announceForAccessibility('Navigation menu collapsed');
           } else {
@@ -376,6 +414,7 @@ function CustomDrawerContent({ navigation }: { navigation: any }) {
         }}
         onAccessibilityTap={() => {
           if (isDrawerOpen) {
+            setFocusTimestamp(Date.now());
             navigation.closeDrawer();
             AccessibilityInfo.announceForAccessibility('Navigation menu collapsed');
           } else {
@@ -383,7 +422,7 @@ function CustomDrawerContent({ navigation }: { navigation: any }) {
           }
         }}
         {...({
-          onKeyDown: handleKeyDown,
+          onKeyDown: handleHamburgerKeyDown,
           keyboardEvents: ['keyDown'],
           focusable: true,
         } as any)}>
@@ -393,7 +432,7 @@ function CustomDrawerContent({ navigation }: { navigation: any }) {
       {isDrawerOpen && (
         <View style={{ flex: 1 }}>
           <ScrollView
-            style={{ flex: 1, maxHeight: '85%' }}
+            style={{ flex: 1, maxHeight: '50%' }}
             contentContainerStyle={{ paddingBottom: 20 }}
             showsVerticalScrollIndicator={true}
             persistentScrollbar={true}>
@@ -433,7 +472,7 @@ function CustomDrawerContent({ navigation }: { navigation: any }) {
               icon="&#xE713;"
               navigation={navigation}
               currentRoute={currentRoute}
-              onKeyDown={handleKeyDown}
+              onKeyDown={handleSettingsKeyDown}
               keyboardEvents={['keyDown']}
               focusable={true}
             />
@@ -464,29 +503,62 @@ function MyDrawer() {
   );
 }
 
+function NavigationAwareDrawer() {
+  const {pushRoute} = useNavigationHistory();
+
+  return (
+    <NavigationStateTracker pushRoute={pushRoute}>
+      <MyDrawer />
+    </NavigationStateTracker>
+  );
+}
+
+function NavigationStateTracker({
+  pushRoute,
+  children,
+}: {
+  pushRoute: (route: string) => void;
+  children: React.ReactNode;
+}) {
+  const navigation = useNavigation();
+
+  React.useEffect(() => {
+    pushRoute(navigation.currentScreen);
+  }, [navigation.currentScreen, pushRoute]);
+
+  return <>{children}</>;
+}
+
 export default function App() {
   const [rawtheme, setRawTheme] = React.useState<ThemeMode>('system');
   const colorScheme = useColorScheme();
   const theme = rawtheme === 'system' ? colorScheme! : rawtheme;
+  const [focusScreenWrapperTimestamp, setFocusScreenWrapperTimestamp] = React.useState<number | null>(null);
 
   const isHighContrast = useHighContrastState();
 
   return (
-    <ThemeSetterContext.Provider value={setRawTheme}>
-      <RawThemeContext.Provider value={rawtheme}>
-        <ThemeContext.Provider value={theme}>
-          <NavigationContainer
-            theme={
-              isHighContrast
-                ? HighContrastTheme
-                : theme === 'dark'
-                ? DarkTheme
-                : LightTheme
-            }>
-            <MyDrawer />
-          </NavigationContainer>
-        </ThemeContext.Provider>
-      </RawThemeContext.Provider>
-    </ThemeSetterContext.Provider>
+    <NavigationHistoryProvider>
+      <FocusScreenWrapperSetterContext.Provider value={setFocusScreenWrapperTimestamp}>
+        <FocusScreenWrapperContext.Provider value={focusScreenWrapperTimestamp}>
+          <ThemeSetterContext.Provider value={setRawTheme}>
+            <RawThemeContext.Provider value={rawtheme}>
+              <ThemeContext.Provider value={theme}>
+                <NavigationContainer
+                  theme={
+                    isHighContrast
+                      ? HighContrastTheme
+                      : theme === 'dark'
+                      ? DarkTheme
+                      : LightTheme
+                  }>
+                  <NavigationAwareDrawer />
+                </NavigationContainer>
+              </ThemeContext.Provider>
+            </RawThemeContext.Provider>
+          </ThemeSetterContext.Provider>
+        </FocusScreenWrapperContext.Provider>
+      </FocusScreenWrapperSetterContext.Provider>
+    </NavigationHistoryProvider>
   );
 }

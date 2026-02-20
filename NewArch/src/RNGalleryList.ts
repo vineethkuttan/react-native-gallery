@@ -48,12 +48,11 @@ import {VirtualizedListExamplePage} from './examples/VirtualizedListExamplePage'
 let RNGalleryCategories = [
   {label: 'Basic Input', icon: '\uE73A'},
   {label: 'Collections', icon: '\uE80A'},
-  {label: 'Date & time', icon: '\uEC92'},
   {label: 'Dialogs & flyouts', icon: '\uE8BD'},
   {label: 'Layout', icon: '\uE8A1'},
   {label: 'Media', icon: '\uE786'},
   {label: 'Scrolling', icon: '\uE8CB'},
-  {label: 'Status and Info', icon: '\uE8F2'},
+  // {label: 'Status and Info', icon: '\uE8F2'},
   {label: 'Text', icon: '\uE8D2'},
   {label: 'System', icon: '\uE7F8'},
   {label: 'Legacy', icon: '\uE96A'},
@@ -286,6 +285,7 @@ export const RNGalleryList: Array<IRNGalleryExample> = [
     imageIcon: require('../assets/ControlImages/TextBlock.png'),
     subtitle: 'A lightweight control for displaying small amounts of text.',
     type: 'Text',
+    recentlyUpdated: true,
   },
   {
     key: 'TextInput',

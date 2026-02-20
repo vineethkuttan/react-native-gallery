@@ -144,7 +144,7 @@ const DrawerListItem = ({
           {icon}
         </Text>
       </View>
-      <Text accessible={false} style={styles.drawerText}>
+      <Text accessible={false} style={styles.drawerText} allowFontScaling={true}>
         {label}
       </Text>
     </Pressable>
@@ -194,6 +194,7 @@ const DrawerCollapsibleCategory = ({
       accessible={true}
       accessibilityRole="button"
       accessibilityLabel={categoryLabel}
+      accessibilityState={{expanded: isExpanded}}
       onAccessibilityTap={() => setIsExpanded(!isExpanded)}>
       <Pressable
         style={localStyles.drawerListItem}
@@ -212,7 +213,7 @@ const DrawerCollapsibleCategory = ({
             {categoryIcon}
           </Text>
         </View>
-        <Text accessible={false} style={styles.drawerText}>
+        <Text accessible={false} style={styles.drawerText} allowFontScaling={true}>
           {categoryLabel}
         </Text>
         <View style={styles.expandedChevron}>
